@@ -3,7 +3,6 @@ package seedu.duke.command;
 import seedu.duke.History;
 import seedu.duke.NotesManager;
 import seedu.duke.routing.Router;
-import seedu.duke.UiManager;
 
 public class Command {
     protected String userInput;
