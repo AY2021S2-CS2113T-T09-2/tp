@@ -30,7 +30,7 @@ public class Duke {
         while (!isExit) {
             try {
                 String input = ui.getUserInput();
-                Command command = Parser.prepareForCommandExecution(input);
+                Command command = UserInputParser.prepareForCommandExecution(input);
                 command.execute(router, ui, history, notesManager);
                 ui.showToUser();
                 isExit = command.isExit();
