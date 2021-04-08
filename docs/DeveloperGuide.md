@@ -135,7 +135,7 @@ As shown in the diagram above, `Router` is used by the following classes:
 * `ShowDailyRouteCommand`
 
 ### 2.6. Data Component
-![img.png](images/DataComponent.png)
+![img.png](images/DataComponent.png) 
 
 The **Data Component** is where all the data that are needed to execute a command is stored. For example when `"go"`
 command is executed, the `GoCommand`object will use data stored in `NusMap`, `EateryList` and `BlockAlias` in order to find
